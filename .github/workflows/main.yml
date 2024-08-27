@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Run pwd
-      run : pwd
-    - name: Run ls -al
-      run : ls -al
+    - name: check platform
+      run : uname -m
   
